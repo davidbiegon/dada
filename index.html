@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML + CSS Formatting Demo</title>
 
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        blockquote {
+            margin-left: 30px;
+            font-style: italic;
+            color: gray;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-weight: bold;
+            color: darkblue;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Line 1: Bold (Inline CSS) -->
+<p style="font-weight: bold; color: blue;">Line 1: Bold text (Inline)</p>
+
+<!-- Line 2: Italics -->
+<p style="font-style: italic;">Line 2: Italic text</p>
+
+<!-- Line 3: Underline -->
+<p class="underline">Line 3: Underlined text</p>
+
+<!-- Line 4: Superscript -->
+<p>Line 4: X<sup>2</sup></p>
+
+<!-- Line 5: Subscript -->
+<p>Line 5: H<sub>2</sub>O</p>
+
+<!-- Line 6: Strikethrough -->
+<p style="text-decoration: line-through;">Line 6: Strikethrough</p>
+
+<!-- Line 7: Highlight -->
+<p class="highlight">Line 7: Highlighted text</p>
+
+<!-- Line 8: Quote -->
+<p><q>Line 8: Short quotation</q></p>
+
+<!-- Line 9: Indented Quote -->
+<blockquote>Line 9: Indented quotation</blockquote>
+
+<!-- Line 10: Footer -->
+<footer>Line 10: Footer content</footer>
+
+<!-- Line 11: Line Break -->
+<p>
+    Line 11: First line<br>
+    Second line<br>
+    Third line
+</p>
+
+<!-- Line 12: Horizontal Rule -->
+<p>Line 12: Above</p>
+<hr>
+<p>Below</p>
+
+<!-- Line 13: Preformatted -->
+<pre>
+Line 13:
+Line one
+Line two
+Line three
+</pre>
+
+<!-- Line 14: List -->
+<ul>
+    <li>Line 14: Item 1</li>
+    <li>Item 2</li>
+</ul>
+
+<!-- Line 15: Nested List -->
+<ul>
+    <li>Main Item
+        <ul>
+            <li>Sub Item 1</li>
+            <li>Sub Item 2</li>
+        </ul>
+    </li>
+</ul>
+
+<!-- Line 17: Table -->
+<table>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>John</td>
+    </tr>
+</table>
+
+</body>
+</html>
